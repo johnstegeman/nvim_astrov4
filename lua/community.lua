@@ -5,7 +5,6 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.motion.flash-nvim", event = "VeryLazy" },
   -- import/override with your plugins folder
 }
