@@ -42,19 +42,7 @@ return {
     -- NOTE: keycodes follow the casing in the vimdocs. For example, `<Leader>` must be capitalized
     mappings = {
       -- first key is the mode
-      n = {
-        -- second key is the lefthand side of the map
-    
-        -- navigate buffer tabs with `H` and `L`
-        -- L = {
-        --   function() require("astronvim.utils.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end,
-        --   desc = "Next buffer",
-        -- },
-        -- H = {
-        --   function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
-        --   desc = "Previous buffer",
-        -- },
-    
+      n = {    
         -- mappings seen under group name "Buffer"
         ["<Leader>bD"] = {
           function()
