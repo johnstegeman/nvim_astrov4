@@ -6,5 +6,6 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.motion.flash-nvim", event = "VeryLazy" },
+  { import = "astrocommunity.debugging.nvim-bqf", event = "VeryLazy" },
   -- import/override with your plugins folder
 }
